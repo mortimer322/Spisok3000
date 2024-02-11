@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рабочий пример</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="block1">
+            <div class="title">
+                <h1>Мой список дел</h1>
+            </div>
+            <input type="text" id="nameInput" placeholder="что сдлеать...">
+            <button id="myButton" class="btn1">Добавить</button><br>
+            <input type="text" id="search" placeholder="найти...">
+        </div>
+        <div class="block2">
+            <ul class="list" id="list"></ul>
+        </div>
+        <div class="modal">
+            <div class="modal-window" id="modalWindow">
+                <div class="modal-text">Удалить задачу?</div>
+                <div class="modal__btns">
+                    <button id="canselTask" class="modalbtn1">Отмена</button>
+                    <button id="deleteTask" class="modalbtn2">Удалить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
